@@ -12,4 +12,4 @@ changeColorEl.addEventListener("click", changeBgColorRandom);
 function changeBgColorRandom() {
   bodyEl.style.backgroundColor = `${getRandomHexColor()}`;
   colorEl.textContent = getRandomHexColor();
-}
+};
